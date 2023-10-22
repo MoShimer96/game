@@ -4,8 +4,8 @@ class StartScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('start', 'assets/start.png');
-    this.load.audio('soundtrack', 'assets/the-office-theme-song_01.mp3');
+    this.load.image('start', './assets/start.png');
+    this.load.audio('soundtrack', './assets/the-office-theme-song_01.mp3');
   }
 
   create() {

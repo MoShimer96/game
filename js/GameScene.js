@@ -12,15 +12,15 @@ class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('scott', 'assets/scott.png');
-    this.load.image('pretzel', 'assets/pretzel.png');
-    this.load.image('toby', 'assets/toby.png');
-    this.load.image('paper', 'assets/paper.png');
-    this.load.image('dwight', 'assets/dwight.png');
+    this.load.image('scott', './assets/scott.png');
+    this.load.image('pretzel', './assets/pretzel.png');
+    this.load.image('toby', './assets/toby.png');
+    this.load.image('paper', './assets/paper.png');
+    this.load.image('dwight', './assets/dwight.png');
 
 
-    this.load.audio('michael', 'assets/michael_3.mp3');
-    this.load.audio('pew', 'assets/pew-pew-lame-sound-effect.mp3');
+    this.load.audio('michael', './assets/michael_3.mp3');
+    this.load.audio('pew', './assets/pew-pew-lame-sound-effect.mp3');
 
     
     
