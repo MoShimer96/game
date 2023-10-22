@@ -4,8 +4,8 @@ class EndScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('end', 'assets/end.png');
-    this.load.audio('ending', 'assets/nooo-god-0.mp3');
+    this.load.image('end', './assets/end.png');
+    this.load.audio('ending', './assets/nooo-god-0.mp3');
   }
 
   create() {
