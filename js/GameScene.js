@@ -10,7 +10,7 @@ class GameScene extends Phaser.Scene {
   constructor() {
     super({ key: 'GameScene' });
   }
-
+ 
   preload() {
     this.load.image('scott', './assets/scott.png');
     this.load.image('pretzel', './assets/pretzel.png');
